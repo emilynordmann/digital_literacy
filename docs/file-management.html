@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 2 File Management | Digital Literacy</title>
+<meta name="author" content="Emily Nordmann">
+<meta name="description" content="Managing files efficiently is essential for staying organized, especially for academic work and projects. This guide will walk you through file management best practices on both macOS and Windows....">
+<meta name="generator" content="bookdown 0.34 with bs4_book()">
+<meta property="og:title" content="Chapter 2 File Management | Digital Literacy">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://emilynordmann.github.io/digital_literacy/file-management.html">
+<meta property="og:image" content="https://emilynordmann.github.io/digital_literacy/images/logos/logo.png">
+<meta property="og:description" content="Managing files efficiently is essential for staying organized, especially for academic work and projects. This guide will walk you through file management best practices on both macOS and Windows....">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 2 File Management | Digital Literacy">
+<meta name="twitter:description" content="Managing files efficiently is essential for staying organized, especially for academic work and projects. This guide will walk you through file management best practices on both macOS and Windows....">
+<meta name="twitter:image" content="https://emilynordmann.github.io/digital_literacy/images/logos/logo.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.0/transition.js"></script><script src="libs/bs3compat-0.5.0/tabs.js"></script><script src="libs/bs3compat-0.5.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6NP3MF25W3');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+          margin-bottom: 0em;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="include/psyteachr.css">
+<link rel="stylesheet" href="include/webex.css">
+<link rel="stylesheet" href="include/style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Digital Literacy</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Overview</a></li>
+<li><a class="" href="operating-system-guide.html"><span class="header-section-number">1</span> Operating System Guide</a></li>
+<li><a class="active" href="file-management.html"><span class="header-section-number">2</span> File Management</a></li>
+<li><a class="" href="understanding-file-types.html"><span class="header-section-number">3</span> Understanding File Types</a></li>
+<li><a class="" href="organizing-your-files-and-folders.html"><span class="header-section-number">4</span> Organizing Your Files and Folders</a></li>
+<li><a class="" href="installing-and-uninstalling-software.html"><span class="header-section-number">5</span> Installing and Uninstalling Software</a></li>
+<li><a class="" href="keyboard-and-mouse-shortcuts-guide.html"><span class="header-section-number">6</span> Keyboard and Mouse Shortcuts Guide</a></li>
+<li><a class="" href="basic-troubleshooting.html"><span class="header-section-number">7</span> Basic Troubleshooting</a></li>
+<li><a class="" href="email-teams-etiquette.html"><span class="header-section-number">8</span> Email &amp; Teams Etiquette</a></li>
+<li><a class="" href="searching-for-information.html"><span class="header-section-number">9</span> Searching for information</a></li>
+<li class="book-part">Appendices</li>
+<li><a class="" href="license.html">License</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/psyteachr/template">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="file-management" class="section level1" number="2">
+<h1>
+<span class="header-section-number">2</span> File Management<a class="anchor" aria-label="anchor" href="#file-management"><i class="fas fa-link"></i></a>
+</h1>
+<p>Managing files efficiently is essential for staying organized, especially for academic work and projects. This guide will walk you through file management best practices on both macOS and Windows.</p>
+<div id="understanding-file-types-and-extensions" class="section level2" number="2.1">
+<h2>
+<span class="header-section-number">2.1</span> 1. Understanding File Types and Extensions<a class="anchor" aria-label="anchor" href="#understanding-file-types-and-extensions"><i class="fas fa-link"></i></a>
+</h2>
+<p>File extensions are the last part of a file name, indicating the type of file. Recognizing these helps you understand what program to use for opening the file.</p>
+<ul>
+<li>
+<strong>Common File Extensions</strong>:
+<ul>
+<li>
+<code>.docx</code>: Microsoft Word document</li>
+<li>
+<code>.pdf</code>: Portable Document Format, often used for documents that shouldn’t be edited</li>
+<li>
+<code>.xlsx</code>: Microsoft Excel spreadsheet</li>
+<li>
+<code>.pptx</code>: Microsoft PowerPoint presentation</li>
+<li>
+<code>.jpeg</code> or <code>.png</code>: Image files</li>
+<li>
+<code>.mp3</code>: Audio file</li>
+<li>
+<code>.zip</code>: Compressed archive</li>
+</ul>
+</li>
+</ul>
+<hr>
+</div>
+<div id="creating-and-renaming-folders" class="section level2" number="2.2">
+<h2>
+<span class="header-section-number">2.2</span> 2. Creating and Renaming Folders<a class="anchor" aria-label="anchor" href="#creating-and-renaming-folders"><i class="fas fa-link"></i></a>
+</h2>
+<div id="on-macos-8" class="section level3" number="2.2.1">
+<h3>
+<span class="header-section-number">2.2.1</span> On macOS:<a class="anchor" aria-label="anchor" href="#on-macos-8"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Creating a Folder</strong>:
+<ul>
+<li>In Finder, navigate to the location where you want to create the folder.</li>
+<li>Right-click (Control + click) and select <code>New Folder</code> or press <code>Shift + Command + N</code>.</li>
+<li>Name the folder appropriately to organize your files.</li>
+</ul>
+</li>
+<li>
+<strong>Renaming a Folder</strong>:
+<ul>
+<li>Right-click (Control + click) the folder and choose <code>Rename</code>, or click the folder once, then click again to edit its name.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="on-windows-8" class="section level3" number="2.2.2">
+<h3>
+<span class="header-section-number">2.2.2</span> On Windows:<a class="anchor" aria-label="anchor" href="#on-windows-8"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Creating a Folder</strong>:
+<ul>
+<li>Open <strong>File Explorer</strong> by pressing <code>Windows + E</code>.</li>
+<li>Navigate to the desired location, right-click, and select <code>New &gt; Folder</code>, or press <code>Ctrl + Shift + N</code>.</li>
+<li>Type a name for the folder and press Enter.</li>
+</ul>
+</li>
+<li>
+<strong>Renaming a Folder</strong>:
+<ul>
+<li>Right-click the folder and select <code>Rename</code>, or click the folder once, then press <code>F2</code> to rename it.</li>
+</ul>
+</li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="copying-moving-and-deleting-files" class="section level2" number="2.3">
+<h2>
+<span class="header-section-number">2.3</span> 3. Copying, Moving, and Deleting Files<a class="anchor" aria-label="anchor" href="#copying-moving-and-deleting-files"><i class="fas fa-link"></i></a>
+</h2>
+<div id="on-macos-9" class="section level3" number="2.3.1">
+<h3>
+<span class="header-section-number">2.3.1</span> On macOS:<a class="anchor" aria-label="anchor" href="#on-macos-9"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Copying Files</strong>:
+<ul>
+<li>Select the file, then press <code>Command + C</code> to copy. Navigate to the desired location and press <code>Command + V</code> to paste.</li>
+</ul>
+</li>
+<li>
+<strong>Moving Files</strong>:
+<ul>
+<li>Drag and drop the file from one location to another within Finder, or cut the file using <code>Command + X</code> and paste it with <code>Command + V</code>.</li>
+</ul>
+</li>
+<li>
+<strong>Deleting Files</strong>:
+<ul>
+<li>Drag files to the Trash in the Dock, or select them and press <code>Command + Delete</code>. Empty the Trash to permanently delete them.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="on-windows-9" class="section level3" number="2.3.2">
+<h3>
+<span class="header-section-number">2.3.2</span> On Windows:<a class="anchor" aria-label="anchor" href="#on-windows-9"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Copying Files</strong>:
+<ul>
+<li>Select the file, then press <code>Ctrl + C</code> to copy. Navigate to the target folder and press <code>Ctrl + V</code> to paste.</li>
+</ul>
+</li>
+<li>
+<strong>Moving Files</strong>:
+<ul>
+<li>Drag and drop the file to move it between locations, or press <code>Ctrl + X</code> to cut and <code>Ctrl + V</code> to paste in the new location.</li>
+</ul>
+</li>
+<li>
+<strong>Deleting Files</strong>:
+<ul>
+<li>Right-click the file and select "Delete," or press <code>Delete</code> on your keyboard. Files will be moved to the Recycle Bin, and you can empty the bin to permanently remove them.</li>
+</ul>
+</li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="searching-for-files" class="section level2" number="2.4">
+<h2>
+<span class="header-section-number">2.4</span> 4. Searching for Files<a class="anchor" aria-label="anchor" href="#searching-for-files"><i class="fas fa-link"></i></a>
+</h2>
+<div id="on-macos-10" class="section level3" number="2.4.1">
+<h3>
+<span class="header-section-number">2.4.1</span> On macOS:<a class="anchor" aria-label="anchor" href="#on-macos-10"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Spotlight Search</strong>:
+<ul>
+<li>Press <code>Command + Space</code> to open Spotlight, and start typing the name of the file you want to find. It will search across all files, emails, and applications.</li>
+</ul>
+</li>
+<li>
+<strong>Finder Search</strong>:
+<ul>
+<li>Open Finder and use the search bar in the top-right corner. You can narrow down the search using filters like file type, date created, or location.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="on-windows-10" class="section level3" number="2.4.2">
+<h3>
+<span class="header-section-number">2.4.2</span> On Windows:<a class="anchor" aria-label="anchor" href="#on-windows-10"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Search Bar</strong>:
+<ul>
+<li>Press <code>Windows + S</code> or click the magnifying glass on the Taskbar to open the search bar. Start typing the file name or a keyword.</li>
+</ul>
+</li>
+<li>
+<strong>File Explorer Search</strong>:
+<ul>
+<li>In <strong>File Explorer</strong>, use the search bar at the top-right to find files within a specific folder or location. You can refine the search by date, file type, or size.</li>
+</ul>
+</li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="organizing-files" class="section level2" number="2.5">
+<h2>
+<span class="header-section-number">2.5</span> 5. Organizing Files<a class="anchor" aria-label="anchor" href="#organizing-files"><i class="fas fa-link"></i></a>
+</h2>
+<div id="best-practices-for-file-organization" class="section level3" number="2.5.1">
+<h3>
+<span class="header-section-number">2.5.1</span> Best Practices for File Organization:<a class="anchor" aria-label="anchor" href="#best-practices-for-file-organization"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Use Descriptive File Names</strong>: Avoid generic names like "Document1" or "Untitled." Use clear, descriptive names such as <code>Research_Paper_Draft.docx</code>.</li>
+<li>
+<strong>Create a Logical Folder Structure</strong>: Group files into folders and subfolders based on categories like "Classes," "Projects," "Work," or "Personal."</li>
+<li>
+<strong>Version Control</strong>: When working on multiple versions of a file, include version numbers or dates in the file name (e.g., <code>Thesis_v1.docx</code> or <code>Thesis_2023_09_10.docx</code>).</li>
+<li>
+<strong>Backups</strong>: Regularly back up important files to external drives or cloud services like Google Drive, OneDrive, or Dropbox to avoid data loss.</li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="compressing-and-extracting-files" class="section level2" number="2.6">
+<h2>
+<span class="header-section-number">2.6</span> 6. Compressing and Extracting Files<a class="anchor" aria-label="anchor" href="#compressing-and-extracting-files"><i class="fas fa-link"></i></a>
+</h2>
+<div id="on-macos-11" class="section level3" number="2.6.1">
+<h3>
+<span class="header-section-number">2.6.1</span> On macOS:<a class="anchor" aria-label="anchor" href="#on-macos-11"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Compressing Files</strong>:
+<ul>
+<li>Select the files or folder in Finder, right-click (Control + click), and select "Compress."</li>
+<li>A <code>.zip</code> file will be created, which you can share or store.</li>
+</ul>
+</li>
+<li>
+<strong>Extracting Files</strong>:
+<ul>
+<li>Double-click the <code>.zip</code> file to extract its contents.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="on-windows-11" class="section level3" number="2.6.2">
+<h3>
+<span class="header-section-number">2.6.2</span> On Windows:<a class="anchor" aria-label="anchor" href="#on-windows-11"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Compressing Files</strong>:
+<ul>
+<li>Select the files or folder, right-click, and choose <code>Send to &gt; Compressed (zipped) folder</code>.</li>
+</ul>
+</li>
+<li>
+<strong>Extracting Files</strong>:
+<ul>
+<li>Right-click the <code>.zip</code> file and choose <code>Extract All</code> to extract its contents.</li>
+</ul>
+</li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="backing-up-files" class="section level2" number="2.7">
+<h2>
+<span class="header-section-number">2.7</span> 7. Backing Up Files<a class="anchor" aria-label="anchor" href="#backing-up-files"><i class="fas fa-link"></i></a>
+</h2>
+<div id="using-cloud-storage" class="section level3" number="2.7.1">
+<h3>
+<span class="header-section-number">2.7.1</span> Using Cloud Storage:<a class="anchor" aria-label="anchor" href="#using-cloud-storage"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Google Drive, OneDrive, Dropbox</strong>: Upload your files to these services, and sync them across devices to ensure access anywhere.</li>
+<li>
+<strong>Automatic Sync</strong>: Set up automatic backups so files are regularly uploaded to the cloud, safeguarding against data loss.</li>
+</ul>
+</div>
+<div id="external-backup" class="section level3" number="2.7.2">
+<h3>
+<span class="header-section-number">2.7.2</span> External Backup:<a class="anchor" aria-label="anchor" href="#external-backup"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Use an external hard drive or USB drive to back up essential documents regularly.
+<ul>
+<li>
+<strong>On macOS</strong>: Use <strong>Time Machine</strong> for automatic backups.</li>
+<li>
+<strong>On Windows</strong>: Use <strong>File History</strong> or manually copy important files to an external drive.</li>
+</ul>
+</li>
+</ul>
+<hr>
+</div>
+</div>
+<div id="safely-ejecting-external-devices" class="section level2" number="2.8">
+<h2>
+<span class="header-section-number">2.8</span> 8. Safely Ejecting External Devices<a class="anchor" aria-label="anchor" href="#safely-ejecting-external-devices"><i class="fas fa-link"></i></a>
+</h2>
+<div id="on-macos-12" class="section level3" number="2.8.1">
+<h3>
+<span class="header-section-number">2.8.1</span> On macOS:<a class="anchor" aria-label="anchor" href="#on-macos-12"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Right-click the external drive or USB in Finder or on the Desktop and select "Eject," or drag the device icon to the Trash.</li>
+</ul>
+</div>
+<div id="on-windows-12" class="section level3" number="2.8.2">
+<h3>
+<span class="header-section-number">2.8.2</span> On Windows:<a class="anchor" aria-label="anchor" href="#on-windows-12"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Click the "Safely Remove Hardware" icon in the system tray (bottom-right corner of the screen) and select the device you want to eject.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+<script>
+
+/* update total correct if #webex-total_correct exists */
+update_total_correct = function() {
+  console.log("webex: update total_correct");
+
+  if (t = document.getElementById("webex-total_correct")) {
+    var correct = document.getElementsByClassName("webex-correct").length;
+    var solvemes = document.getElementsByClassName("webex-solveme").length;
+    var radiogroups = document.getElementsByClassName("webex-radiogroup").length;
+    var selects = document.getElementsByClassName("webex-select").length;
+
+    t.innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+  }
+}
+
+/* webex-solution button toggling function */
+b_func = function() {
+  console.log("webex: toggle hide");
+
+  var cl = this.parentElement.classList;
+  if (cl.contains('open')) {
+    cl.remove("open");
+  } else {
+    cl.add("open");
+  }
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  console.log("webex: check solveme");
+
+  var real_answers = JSON.parse(this.dataset.answer);
+  var my_answer = this.value;
+  var cl = this.classList;
+  if (cl.contains("ignorecase")) {
+    my_answer = my_answer.toLowerCase();
+  }
+  if (cl.contains("nospaces")) {
+    my_answer = my_answer.replace(/ /g, "")
+  }
+
+  if (my_answer == "") {
+    cl.remove("webex-correct");
+    cl.remove("webex-incorrect");
+  } else if (real_answers.includes(my_answer)) {
+    cl.add("webex-correct");
+    cl.remove("webex-incorrect");
+  } else {
+    cl.add("webex-incorrect");
+    cl.remove("webex-correct");
+  }
+
+  // match numeric answers within a specified tolerance
+  if(this.dataset.tol > 0){
+    var tol = JSON.parse(this.dataset.tol);
+    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.add("webex-correct");
+    } else {
+      cl.remove("webex-correct");
+    }
+  }
+
+  // added regex bit
+  if (cl.contains("regex")){
+    answer_regex = RegExp(real_answers.join("|"))
+    if (answer_regex.test(my_answer)) {
+      cl.add("webex-correct");
+    }
+  }
+
+  update_total_correct();
+}
+
+/* function for checking select answers */
+select_func = function(e) {
+  console.log("webex: check select");
+
+  var cl = this.classList
+
+  /* add style */
+  cl.remove("webex-incorrect");
+  cl.remove("webex-correct");
+  if (this.value == "answer") {
+    cl.add("webex-correct");
+  } else if (this.value != "blank") {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+/* function for checking radiogroups answers */
+radiogroups_func = function(e) {
+  console.log("webex: check radiogroups");
+
+  var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
+  var cl = checked_button.parentElement.classList;
+  var labels = checked_button.parentElement.parentElement.children;
+
+  /* get rid of styles */
+  for (i = 0; i < labels.length; i++) {
+    labels[i].classList.remove("webex-incorrect");
+    labels[i].classList.remove("webex-correct");
+  }
+
+  /* add style */
+  if (checked_button.value == "answer") {
+    cl.add("webex-correct");
+  } else {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+window.onload = function() {
+  console.log("webex onload");
+  /* set up solution buttons */
+  var buttons = document.getElementsByTagName("button");
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].parentElement.classList.contains('webex-solution')) {
+      buttons[i].onclick = b_func;
+    }
+  }
+
+  /* set up webex-solveme inputs */
+  var solveme = document.getElementsByClassName("webex-solveme");
+
+  for (var i = 0; i < solveme.length; i++) {
+    /* make sure input boxes don't auto-anything */
+    solveme[i].setAttribute("autocomplete","off");
+    solveme[i].setAttribute("autocorrect", "off");
+    solveme[i].setAttribute("autocapitalize", "off");
+    solveme[i].setAttribute("spellcheck", "false");
+    solveme[i].value = "";
+
+    /* adjust answer for ignorecase or nospaces */
+    var cl = solveme[i].classList;
+    var real_answer = solveme[i].dataset.answer;
+    if (cl.contains("ignorecase")) {
+      real_answer = real_answer.toLowerCase();
+    }
+    if (cl.contains("nospaces")) {
+      real_answer = real_answer.replace(/ /g, "");
+    }
+    solveme[i].dataset.answer = real_answer;
+
+    /* attach checking function */
+    solveme[i].onkeyup = solveme_func;
+    solveme[i].onchange = solveme_func;
+
+    $(solveme[i]).after(" <span class='webex-icon'></span>");
+  }
+
+  /* set up radiogroups */
+  var radiogroups = document.getElementsByClassName("webex-radiogroup");
+  for (var i = 0; i < radiogroups.length; i++) {
+    radiogroups[i].onchange = radiogroups_func;
+  }
+
+  /* set up selects */
+  var selects = document.getElementsByClassName("webex-select");
+  for (var i = 0; i < selects.length; i++) {
+    selects[i].onchange = select_func;
+    $(selects[i]).after(" <span class='webex-icon'></span>");
+  }
+
+  update_total_correct();
+}
+
+</script><script>
+$( document ).ready(function() {
+  var cite = ' ';
+  var psyteachr = ' <a href="https://psyteachr.github.io/"><img src="images/logos/psyteachr_logo.png" style="height: 31px; color: white;" alt="psyTeachR: Reproducible Research" /></a>';
+  var license = ' <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>';
+
+  $("footer div.row div:eq(1) p").html(
+    psyteachr + license + cite
+  );
+
+  // open rdrr links externally
+  $("a[href^='https://rdrr.io']").click(function(){
+    window.open(this.href);
+    return false;
+  });
+
+  // visible second sidebar in mobile
+  function move_sidebar() {
+    var w = window.innerWidth;
+    if (w < 992) {
+      $("#toc").appendTo($("#main-nav"));
+    } else {
+      $("#toc").appendTo($("div.sidebar-chapter"));
+    }
+  }
+  move_sidebar();
+  window.onresize = move_sidebar;
+});
+</script><div class="chapter-nav">
+<div class="prev"><a href="operating-system-guide.html"><span class="header-section-number">1</span> Operating System Guide</a></div>
+<div class="next"><a href="understanding-file-types.html"><span class="header-section-number">3</span> Understanding File Types</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#file-management"><span class="header-section-number">2</span> File Management</a></li>
+<li><a class="nav-link" href="#understanding-file-types-and-extensions"><span class="header-section-number">2.1</span> 1. Understanding File Types and Extensions</a></li>
+<li>
+<a class="nav-link" href="#creating-and-renaming-folders"><span class="header-section-number">2.2</span> 2. Creating and Renaming Folders</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#on-macos-8"><span class="header-section-number">2.2.1</span> On macOS:</a></li>
+<li><a class="nav-link" href="#on-windows-8"><span class="header-section-number">2.2.2</span> On Windows:</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#copying-moving-and-deleting-files"><span class="header-section-number">2.3</span> 3. Copying, Moving, and Deleting Files</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#on-macos-9"><span class="header-section-number">2.3.1</span> On macOS:</a></li>
+<li><a class="nav-link" href="#on-windows-9"><span class="header-section-number">2.3.2</span> On Windows:</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#searching-for-files"><span class="header-section-number">2.4</span> 4. Searching for Files</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#on-macos-10"><span class="header-section-number">2.4.1</span> On macOS:</a></li>
+<li><a class="nav-link" href="#on-windows-10"><span class="header-section-number">2.4.2</span> On Windows:</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#organizing-files"><span class="header-section-number">2.5</span> 5. Organizing Files</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#best-practices-for-file-organization"><span class="header-section-number">2.5.1</span> Best Practices for File Organization:</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#compressing-and-extracting-files"><span class="header-section-number">2.6</span> 6. Compressing and Extracting Files</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#on-macos-11"><span class="header-section-number">2.6.1</span> On macOS:</a></li>
+<li><a class="nav-link" href="#on-windows-11"><span class="header-section-number">2.6.2</span> On Windows:</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#backing-up-files"><span class="header-section-number">2.7</span> 7. Backing Up Files</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#using-cloud-storage"><span class="header-section-number">2.7.1</span> Using Cloud Storage:</a></li>
+<li><a class="nav-link" href="#external-backup"><span class="header-section-number">2.7.2</span> External Backup:</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#safely-ejecting-external-devices"><span class="header-section-number">2.8</span> 8. Safely Ejecting External Devices</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#on-macos-12"><span class="header-section-number">2.8.1</span> On macOS:</a></li>
+<li><a class="nav-link" href="#on-windows-12"><span class="header-section-number">2.8.2</span> On Windows:</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/psyteachr/template/blob/master/book/02-file-management.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/psyteachr/template/edit/master/book/02-file-management.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Digital Literacy</strong>" was written by Emily Nordmann. It was last built on 2024-09-14.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>
