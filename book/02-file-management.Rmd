@@ -3,7 +3,7 @@
 
 Managing files efficiently is essential for staying organized, especially for academic work and projects. This guide will walk you through file management best practices on both macOS and Windows.
 
-## 1. Understanding File Types and Extensions
+## Understanding File Types and Extensions
 File extensions are the last part of a file name, indicating the type of file. Recognizing these helps you understand what program to use for opening the file.
 
 - **Common File Extensions**:
@@ -17,7 +17,7 @@ File extensions are the last part of a file name, indicating the type of file. R
 
 ---
 
-## 2. Creating and Renaming Folders
+## Creating and Renaming Folders
 ### On macOS:
 - **Creating a Folder**: 
     - In Finder, navigate to the location where you want to create the folder.
@@ -36,7 +36,7 @@ File extensions are the last part of a file name, indicating the type of file. R
 
 ---
 
-## 3. Copying, Moving, and Deleting Files
+## Copying, Moving, and Deleting Files
 ### On macOS:
 - **Copying Files**: 
     - Select the file, then press `Command + C` to copy. Navigate to the desired location and press `Command + V` to paste.
@@ -55,7 +55,7 @@ File extensions are the last part of a file name, indicating the type of file. R
 
 ---
 
-## 4. Searching for Files
+## Searching for Files
 ### On macOS:
 - **Spotlight Search**:
     - Press `Command + Space` to open Spotlight, and start typing the name of the file you want to find. It will search across all files, emails, and applications.
@@ -70,7 +70,7 @@ File extensions are the last part of a file name, indicating the type of file. R
 
 ---
 
-## 5. Organizing Files
+## Organizing Files
 ### Best Practices for File Organization:
 - **Use Descriptive File Names**: Avoid generic names like "Document1" or "Untitled." Use clear, descriptive names such as `Research_Paper_Draft.docx`.
 - **Create a Logical Folder Structure**: Group files into folders and subfolders based on categories like "Classes," "Projects," "Work," or "Personal."
@@ -79,7 +79,7 @@ File extensions are the last part of a file name, indicating the type of file. R
 
 ---
 
-## 6. Compressing and Extracting Files
+## Compressing and Extracting Files
 ### On macOS:
 - **Compressing Files**:
     - Select the files or folder in Finder, right-click (Control + click), and select "Compress."
@@ -95,7 +95,7 @@ File extensions are the last part of a file name, indicating the type of file. R
 
 ---
 
-## 7. Backing Up Files
+## Backing Up Files
 ### Using Cloud Storage:
 - **Google Drive, OneDrive, Dropbox**: Upload your files to these services, and sync them across devices to ensure access anywhere.
 - **Automatic Sync**: Set up automatic backups so files are regularly uploaded to the cloud, safeguarding against data loss.
@@ -107,7 +107,7 @@ File extensions are the last part of a file name, indicating the type of file. R
 
 ---
 
-## 8. Safely Ejecting External Devices
+## Safely Ejecting External Devices
 ### On macOS:
 - Right-click the external drive or USB in Finder or on the Desktop and select "Eject," or drag the device icon to the Trash.
 
