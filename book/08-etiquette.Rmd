@@ -11,6 +11,36 @@ Effective digital communication is crucial for university students, especially w
 - **Use Your University Email**: Always use your university-issued email for academic communication. This ensures your messages are taken seriously and helps recipients identify you as a student.
 - **Avoid Casual Email Addresses**: If you use a personal email, ensure it's professional (e.g., your name). Avoid email addresses like `cooldude123@gmail.com`.
 
+## Setting Up an Email Signature
+
+
+1. **Access Settings**:
+   - In the top-right corner, click the **gear icon** for settings.
+   - Scroll down and click **View all Outlook settings** at the bottom of the settings pane.
+
+2. **Finding the email signature settings**:
+   - In the top-right corner, click the gear icon for settings.
+   - Depending on which version of Outlook you're using, the settings might be in different places. you're looking for something that says "Email signature". It will either be in the General settings or under Compose and Reply - the simplest approach is just to search for email signature in the search settings box.
+
+3. **Create Your Signature**:
+   - In the **Email signature** box, type and format your signature. Add your name, title, contact info, and any relevant links. You can also insert images if needed.
+   - As a student, I would recommend setting up a polite greeting and sign-off, your student ID, and then a list of the courses you are enrolled in.
+
+4. **Automatically Include Signature**:
+   - Under the signature box, check the boxes to **Automatically include my signature on new messages that I compose** and **Automatically include my signature on messages I forward or reply to** if you want the signature to appear in every email.
+
+5. **Save**:
+   - Click **Save** to apply your new signature.
+
+---
+
+## Best Practices for Email Signatures
+
+- **Keep it Professional**: Use a clean design with a professional font.
+- **Avoid Overloading**: Don’t clutter your signature with too many images or long text. Stick to essentials.
+- **Consider Social Media Links**: If relevant, include links to your professional social media profiles (e.g., LinkedIn).
+- **Compliance**: Be aware of any university or workplace email signature policies.
+
 ### Writing a Professional Email
 
 1. **Subject Line**:
@@ -103,8 +133,8 @@ Microsoft Teams is widely used in universities for communication, collaboration,
 4. **Respect Privacy**:
     - Avoid sending personal or sensitive information through Teams messages unless absolutely necessary. Always be mindful of privacy, especially in group chats.
 
-5. **Use @Mentions Thoughtfully**:
-    - Use the **@mention** feature to grab someone’s attention (e.g., **@ProfessorSmith** or **@TeamName**), but don’t overuse it. Tagging everyone for minor points can clutter the conversation.
+5. **Use Mentions Thoughtfully**:
+    - Use the `@mention` feature to grab someone’s attention (e.g., `@ProfessorSmith` or `@TeamName`), but don’t overuse it. Tagging everyone for minor points can clutter the conversation.
 
 ### File Sharing in Teams
 

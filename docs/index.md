@@ -2,7 +2,7 @@
 title: "Digital Literacy" # edit
 #subtitle: "optional" 
 author: "Emily Nordmann" # edit
-date: "2024-09-14"
+date: "2024-09-24"
 site: bookdown::bookdown_site
 documentclass: book
 classoption: oneside # for PDFs

@@ -156,6 +156,8 @@ on-windows-26
 email-teams-etiquette
 email-etiquette
 choosing-the-right-email-address
+setting-up-an-email-signature
+best-practices-for-email-signatures
 writing-a-professional-email
 example-email
 attachments
