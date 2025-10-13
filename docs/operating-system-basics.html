@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 1 Operating system basics | Digital Literacy</title>
+<meta name="author" content="Emily Nordmann">
+<meta name="description" content="1.1 Getting around your computer Your desktop is the first screen after you log in. Treat it like a workspace. Keep only shortcuts there and store most files in your Documents folder so things...">
+<meta name="generator" content="bookdown 0.44 with bs4_book()">
+<meta property="og:title" content="Chapter 1 Operating system basics | Digital Literacy">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://emilynordmann.github.io/digital_literacy/operating-system-basics.html">
+<meta property="og:image" content="https://emilynordmann.github.io/digital_literacy/images/logos/logo.png">
+<meta property="og:description" content="1.1 Getting around your computer Your desktop is the first screen after you log in. Treat it like a workspace. Keep only shortcuts there and store most files in your Documents folder so things...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 1 Operating system basics | Digital Literacy">
+<meta name="twitter:description" content="1.1 Getting around your computer Your desktop is the first screen after you log in. Treat it like a workspace. Keep only shortcuts there and store most files in your Documents folder so things...">
+<meta name="twitter:image" content="https://emilynordmann.github.io/digital_literacy/images/logos/logo.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6NP3MF25W3');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+          margin-bottom: 0em;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="include/psyteachr.css">
+<link rel="stylesheet" href="include/webex.css">
+<link rel="stylesheet" href="include/style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Digital Literacy</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled"><li><a class="" href="index.html"><span class="header-section-number">Chapter 1</span> Operating system basics</a></li></ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/psyteachr/template">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="operating-system-basics" class="section level1" number="1">
+<h1>
+<span class="header-section-number">1</span> Operating system basics<a class="anchor" aria-label="anchor" href="#operating-system-basics"><i class="fas fa-link"></i></a>
+</h1>
+<div id="getting-around-your-computer" class="section level2" number="1.1">
+<h2>
+<span class="header-section-number">1.1</span> Getting around your computer<a class="anchor" aria-label="anchor" href="#getting-around-your-computer"><i class="fas fa-link"></i></a>
+</h2>
+<p>Your desktop is the first screen after you log in. Treat it like a workspace. Keep only shortcuts there and store most files in your Documents folder so things stay tidy and quick to use.</p>
+<p>Use a file manager to see your files and folders:</p>
+<ul>
+<li>macOS: open Finder from the Dock, or press Command + Space and type Finder.</li>
+<li>Windows: open File Explorer from the Taskbar, or press Windows + E.</li>
+</ul>
+<p>The bar at the bottom helps you open and switch apps:</p>
+<ul>
+<li>macOS Dock and Windows Taskbar both show running apps. Click an app icon to bring its window to the front.</li>
+<li>To keep favourites there: on macOS drag an app to or from the Dock. On Windows right-click an app and choose Pin to Taskbar.</li>
+<li>Minimise a window to tidy your screen: macOS uses the yellow button at top left. Windows uses the small line button at top right.</li>
+</ul>
+</div>
+<div id="find-things-fast" class="section level2" number="1.2">
+<h2>
+<span class="header-section-number">1.2</span> Find things fast<a class="anchor" aria-label="anchor" href="#find-things-fast"><i class="fas fa-link"></i></a>
+</h2>
+<p>Search is usually quicker than clicking through folders.</p>
+<ul>
+<li>macOS: press Command + Space to open Spotlight and type the name of a file, app, or setting. Finder also has a search box at the top right.</li>
+<li>Windows: press Windows + S or click the magnifying glass, then type what you need. File Explorer also has a search box at the top right.</li>
+</ul>
+</div>
+<div id="open-and-manage-apps-and-windows" class="section level2" number="1.3">
+<h2>
+<span class="header-section-number">1.3</span> Open and manage apps and windows<a class="anchor" aria-label="anchor" href="#open-and-manage-apps-and-windows"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>macOS: open Launchpad from the Dock to see all apps in a grid. For an overview of open windows, press F3 or swipe up with three or four fingers to open Mission Control. You can add extra desktops, called Spaces, to separate tasks.</li>
+<li>Windows: open the Start menu for pinned apps or select All apps. Press Windows + Tab to open Task View, see all windows, and create extra desktops for different tasks.</li>
+</ul>
+</div>
+<div id="files-and-folders" class="section level2" number="1.4">
+<h2>
+<span class="header-section-number">1.4</span> Files and folders<a class="anchor" aria-label="anchor" href="#files-and-folders"><i class="fas fa-link"></i></a>
+</h2>
+<p>Create named folders inside Documents for each course or project. Move files into these folders rather than leaving them on the desktop. In Finder or File Explorer you can drag to move, right-click to copy or rename, and use the search box when you are not sure where something is.</p>
+</div>
+<div id="settings-and-updates" class="section level2" number="1.5">
+<h2>
+<span class="header-section-number">1.5</span> Settings and updates<a class="anchor" aria-label="anchor" href="#settings-and-updates"><i class="fas fa-link"></i></a>
+</h2>
+<p>Use the main menu to shut down, restart, and change settings.</p>
+<ul>
+<li>macOS: click the Apple logo at top left, then System Settings to change sound, display, or network. Choose Software Update to keep macOS and apps up to date.</li>
+<li>Windows: open Start, then Settings to change sound, display, or security. Open Windows Update to install updates.</li>
+</ul>
+<p>Updates improve security and stability. Start them when you do not need the computer for a while.</p>
+</div>
+<div id="external-devices" class="section level2" number="1.6">
+<h2>
+<span class="header-section-number">1.6</span> External devices<a class="anchor" aria-label="anchor" href="#external-devices"><i class="fas fa-link"></i></a>
+</h2>
+<p>When you plug in a USB drive it appears in your file manager.</p>
+<ul>
+<li>macOS: it shows on the desktop and in Finder’s sidebar.</li>
+<li>Windows: it appears under This PC in File Explorer.</li>
+</ul>
+<p>Always eject before unplugging to avoid losing work.</p>
+<ul>
+<li>macOS: right-click the drive and choose Eject, or drag it to the Bin.</li>
+<li>Windows: click the Safely Remove Hardware icon near the clock and choose the device.</li>
+</ul>
+</div>
+<div id="handy-shortcuts" class="section level2" number="1.7">
+<h2>
+<span class="header-section-number">1.7</span> Handy shortcuts<a class="anchor" aria-label="anchor" href="#handy-shortcuts"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>macOS search: Command + Space</li>
+<li>Windows search: Windows + S</li>
+<li>Open File Explorer: Windows + E</li>
+<li>See all windows on macOS: F3 or three- or four-finger swipe up</li>
+<li>See all windows on Windows: Windows + Tab</li>
+</ul>
+</div>
+<div id="try-it-quick-practice-tasks" class="section level2" number="1.8">
+<h2>
+<span class="header-section-number">1.8</span> Try it: quick practice tasks<a class="anchor" aria-label="anchor" href="#try-it-quick-practice-tasks"><i class="fas fa-link"></i></a>
+</h2>
+<p>Complete the tasks that match your computer.</p>
+<div id="macos" class="section level3" number="1.8.1">
+<h3>
+<span class="header-section-number">1.8.1</span> macOS<a class="anchor" aria-label="anchor" href="#macos"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>Open Finder using Command + Space, type Finder, and press Return.</li>
+<li>Create a new folder in Documents called Uni Work. Inside it, create two folders: Course A and Course B.</li>
+<li>Take any file from your desktop and move it into Course A by dragging it in Finder.</li>
+<li>Pin an app to the Dock: open TextEdit, then right-click its Dock icon and choose Keep in Dock.</li>
+<li>Use Spotlight to open System Settings. Change the desktop wallpaper to a different image. Do not forget Apply or Close if shown.</li>
+<li>Check for updates: System Settings &gt; Software Update. If updates are available, note what is listed.</li>
+<li>Open Mission Control with F3. Create a second desktop. Move a window to Desktop 2, then switch back.</li>
+<li>Plug in a USB drive. Find it in Finder’s sidebar. Eject it safely before unplugging.</li>
+<li>Use Finder’s search box to find a file by typing part of its name. Open it from the results.</li>
+<li>Shut down or restart using the Apple menu. Cancel at the final step so you do not lose work.</li>
+</ol>
+</div>
+<div id="windows" class="section level3" number="1.8.2">
+<h3>
+<span class="header-section-number">1.8.2</span> Windows<a class="anchor" aria-label="anchor" href="#windows"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>Open File Explorer using Windows + E.</li>
+<li>Create a new folder in Documents called Uni Work. Inside it, create two folders: Course A and Course B.</li>
+<li>Take any file from your desktop and move it into Course A by dragging it in File Explorer.</li>
+<li>Pin an app to the Taskbar: start Notepad, then right-click the Taskbar icon and choose Pin to taskbar.</li>
+<li>Use Windows + S to open Search. Open Settings and change the desktop background. Save or Apply if asked.</li>
+<li>Open Settings &gt; Windows Update. Check for updates and note what is listed.</li>
+<li>Open Task View with Windows + Tab. Create a second desktop. Move a window there, then switch back.</li>
+<li>Plug in a USB drive. Find it under This PC in File Explorer. Use Safely Remove Hardware near the clock to eject it.</li>
+<li>Use File Explorer’s search box to find a file by typing part of its name. Open it from the results.</li>
+<li>Open the Start menu. Use the Power button to view Shut down and Restart. Cancel at the final step so you do not lose work.</li>
+</ol>
+</div>
+</div>
+<div id="if-you-remember-only-three-things" class="section level2" number="1.9">
+<h2>
+<span class="header-section-number">1.9</span> If you remember only three things<a class="anchor" aria-label="anchor" href="#if-you-remember-only-three-things"><i class="fas fa-link"></i></a>
+</h2>
+<ol style="list-style-type: decimal">
+<li>Use search to find files, apps, and settings quickly.</li>
+<li>Pin your most used apps to the Dock or Taskbar.</li>
+<li>Keep work in named folders inside Documents, not on the desktop.</li>
+</ol>
+</div>
+</div>
+<script>
+
+/* update total correct if #webex-total_correct exists */
+update_total_correct = function() {
+  console.log("webex: update total_correct");
+
+  if (t = document.getElementById("webex-total_correct")) {
+    var correct = document.getElementsByClassName("webex-correct").length;
+    var solvemes = document.getElementsByClassName("webex-solveme").length;
+    var radiogroups = document.getElementsByClassName("webex-radiogroup").length;
+    var selects = document.getElementsByClassName("webex-select").length;
+
+    t.innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+  }
+}
+
+/* webex-solution button toggling function */
+b_func = function() {
+  console.log("webex: toggle hide");
+
+  var cl = this.parentElement.classList;
+  if (cl.contains('open')) {
+    cl.remove("open");
+  } else {
+    cl.add("open");
+  }
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  console.log("webex: check solveme");
+
+  var real_answers = JSON.parse(this.dataset.answer);
+  var my_answer = this.value;
+  var cl = this.classList;
+  if (cl.contains("ignorecase")) {
+    my_answer = my_answer.toLowerCase();
+  }
+  if (cl.contains("nospaces")) {
+    my_answer = my_answer.replace(/ /g, "")
+  }
+
+  if (my_answer == "") {
+    cl.remove("webex-correct");
+    cl.remove("webex-incorrect");
+  } else if (real_answers.includes(my_answer)) {
+    cl.add("webex-correct");
+    cl.remove("webex-incorrect");
+  } else {
+    cl.add("webex-incorrect");
+    cl.remove("webex-correct");
+  }
+
+  // match numeric answers within a specified tolerance
+  if(this.dataset.tol > 0){
+    var tol = JSON.parse(this.dataset.tol);
+    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.add("webex-correct");
+    } else {
+      cl.remove("webex-correct");
+    }
+  }
+
+  // added regex bit
+  if (cl.contains("regex")){
+    answer_regex = RegExp(real_answers.join("|"))
+    if (answer_regex.test(my_answer)) {
+      cl.add("webex-correct");
+    }
+  }
+
+  update_total_correct();
+}
+
+/* function for checking select answers */
+select_func = function(e) {
+  console.log("webex: check select");
+
+  var cl = this.classList
+
+  /* add style */
+  cl.remove("webex-incorrect");
+  cl.remove("webex-correct");
+  if (this.value == "answer") {
+    cl.add("webex-correct");
+  } else if (this.value != "blank") {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+/* function for checking radiogroups answers */
+radiogroups_func = function(e) {
+  console.log("webex: check radiogroups");
+
+  var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
+  var cl = checked_button.parentElement.classList;
+  var labels = checked_button.parentElement.parentElement.children;
+
+  /* get rid of styles */
+  for (i = 0; i < labels.length; i++) {
+    labels[i].classList.remove("webex-incorrect");
+    labels[i].classList.remove("webex-correct");
+  }
+
+  /* add style */
+  if (checked_button.value == "answer") {
+    cl.add("webex-correct");
+  } else {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+window.onload = function() {
+  console.log("webex onload");
+  /* set up solution buttons */
+  var buttons = document.getElementsByTagName("button");
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].parentElement.classList.contains('webex-solution')) {
+      buttons[i].onclick = b_func;
+    }
+  }
+
+  /* set up webex-solveme inputs */
+  var solveme = document.getElementsByClassName("webex-solveme");
+
+  for (var i = 0; i < solveme.length; i++) {
+    /* make sure input boxes don't auto-anything */
+    solveme[i].setAttribute("autocomplete","off");
+    solveme[i].setAttribute("autocorrect", "off");
+    solveme[i].setAttribute("autocapitalize", "off");
+    solveme[i].setAttribute("spellcheck", "false");
+    solveme[i].value = "";
+
+    /* adjust answer for ignorecase or nospaces */
+    var cl = solveme[i].classList;
+    var real_answer = solveme[i].dataset.answer;
+    if (cl.contains("ignorecase")) {
+      real_answer = real_answer.toLowerCase();
+    }
+    if (cl.contains("nospaces")) {
+      real_answer = real_answer.replace(/ /g, "");
+    }
+    solveme[i].dataset.answer = real_answer;
+
+    /* attach checking function */
+    solveme[i].onkeyup = solveme_func;
+    solveme[i].onchange = solveme_func;
+
+    $(solveme[i]).after(" <span class='webex-icon'></span>");
+  }
+
+  /* set up radiogroups */
+  var radiogroups = document.getElementsByClassName("webex-radiogroup");
+  for (var i = 0; i < radiogroups.length; i++) {
+    radiogroups[i].onchange = radiogroups_func;
+  }
+
+  /* set up selects */
+  var selects = document.getElementsByClassName("webex-select");
+  for (var i = 0; i < selects.length; i++) {
+    selects[i].onchange = select_func;
+    $(selects[i]).after(" <span class='webex-icon'></span>");
+  }
+
+  update_total_correct();
+}
+
+</script><script>
+$( document ).ready(function() {
+  var cite = ' ';
+  var psyteachr = ' <a href="https://psyteachr.github.io/"><img src="images/logos/psyteachr_logo.png" style="height: 31px; color: white;" alt="psyTeachR: Reproducible Research" /></a>';
+  var license = ' <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>';
+
+  $("footer div.row div:eq(1) p").html(
+    psyteachr + license + cite
+  );
+
+  // open rdrr links externally
+  $("a[href^='https://rdrr.io']").click(function(){
+    window.open(this.href);
+    return false;
+  });
+
+  // visible second sidebar in mobile
+  function move_sidebar() {
+    var w = window.innerWidth;
+    if (w < 992) {
+      $("#toc").appendTo($("#main-nav"));
+    } else {
+      $("#toc").appendTo($("div.sidebar-chapter"));
+    }
+  }
+  move_sidebar();
+  window.onresize = move_sidebar;
+});
+</script><div class="chapter-nav">
+<div class="empty"></div>
+<div class="empty"></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <div id="book-on-this-page"></div>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Digital Literacy</strong>" was written by Emily Nordmann. It was last built on 2024-09-24.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

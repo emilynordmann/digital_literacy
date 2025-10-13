@@ -1,90 +1,96 @@
-# Operating System Guide
+# Operating system basics
 
-Navigating your operating system efficiently is essential for completing tasks, managing files, and optimizing performance. This guide covers basic navigation and essential elements for both macOS and Windows users.
+## Getting around your computer
+Your desktop is the first screen after you log in. Treat it like a workspace. Keep only shortcuts there and store most files in your Documents folder so things stay tidy and quick to use.
 
-## Desktop and User Interface
+Use a file manager to see your files and folders:
 
-### On macOS:
-- **Desktop**: The desktop is your primary workspace where you can store shortcuts, files, and folders. Keep it organized to improve productivity.
-- **Finder**: The Finder app is used for navigating and managing files. Access it by clicking the Finder icon in the Dock or pressing `Command + Space` and typing "Finder." Use Finder to browse folders, search for files, and open applications.
+- macOS: open Finder from the Dock, or press Command + Space and type Finder.
+- Windows: open File Explorer from the Taskbar, or press Windows + E.
 
-### On Windows:
-- **Desktop**: The desktop functions similarly to macOS, where you can place shortcuts, files, and folders. It's important to keep it organized for quick access.
-- **File Explorer**: File Explorer is the file management system in Windows. Open it by pressing `Windows + E` or by clicking the folder icon on the Taskbar. Use File Explorer to navigate folders, search for files, and manage external devices.
+The bar at the bottom helps you open and switch apps:
 
+- macOS Dock and Windows Taskbar both show running apps. Click an app icon to bring its window to the front.
+- To keep favourites there: on macOS drag an app to or from the Dock. On Windows right-click an app and choose Pin to Taskbar.
+- Minimise a window to tidy your screen: macOS uses the yellow button at top left. Windows uses the small line button at top right.
 
-## Taskbar (Windows) / Dock (macOS)
+## Find things fast
 
-### On macOS:
-- **Dock**: The Dock is located at the bottom of the screen, providing quick access to frequently used applications, open programs, and the Trash. You can add or remove applications by dragging them to and from the Dock.
-- **Minimizing and Managing Windows**: Open programs can be minimized to the Dock by clicking the yellow minimize button in the top-left corner of the window.
+Search is usually quicker than clicking through folders.
 
-### On Windows:
-- **Taskbar**: The Taskbar at the bottom of the screen provides access to frequently used applications and open programs. You can pin or unpin apps by right-clicking on them and selecting "Pin to Taskbar."
-- **Minimizing and Managing Windows**: Minimize programs by clicking the minimize button in the top-right corner of the window. Open programs will appear in the Taskbar for quick switching.
+- macOS: press Command + Space to open Spotlight and type the name of a file, app, or setting. Finder also has a search box at the top right.
+- Windows: press Windows + S or click the magnifying glass, then type what you need. File Explorer also has a search box at the top right.
 
+## Open and manage apps and windows
 
-## Start Menu (Windows) / Apple Menu (macOS)
+- macOS: open Launchpad from the Dock to see all apps in a grid. For an overview of open windows, press F3 or swipe up with three or four fingers to open Mission Control. You can add extra desktops, called Spaces, to separate tasks.
+- Windows: open the Start menu for pinned apps or select All apps. Press Windows + Tab to open Task View, see all windows, and create extra desktops for different tasks.
 
-### On macOS:
-- **Apple Menu**: Access the Apple Menu by clicking the Apple logo in the top-left corner of the screen. From here, you can manage system preferences, restart or shut down the computer, and view system information (About This Mac).
-- **System Preferences/Settings**: System Preferences (in macOS Ventura and earlier) or System Settings (in macOS Ventura and later) allow you to customize settings like display, sound, and security.
+## Files and folders
 
-### On Windows:
-- **Start Menu**: Click the Windows logo in the bottom-left corner of the screen to access the Start Menu. This menu shows frequently used applications and system settings.
-- **Power Options**: Use the Start Menu to access power options such as restart, shut down, or sleep.
+Create named folders inside Documents for each course or project. Move files into these folders rather than leaving them on the desktop. In Finder or File Explorer you can drag to move, right-click to copy or rename, and use the search box when you are not sure where something is.
 
+## Settings and updates
 
-## Search Functionality
+Use the main menu to shut down, restart, and change settings.
 
-### On macOS:
-- **Spotlight Search**: Press `Command + Space` to open Spotlight, which allows you to quickly search for files, applications, and system settings. This is one of the most efficient ways to find content on macOS.
-- **Finder Search**: Finder also has a search bar in the top-right corner that allows you to search within specific folders or across the entire system.
+- macOS: click the Apple logo at top left, then System Settings to change sound, display, or network. Choose Software Update to keep macOS and apps up to date.
+- Windows: open Start, then Settings to change sound, display, or security. Open Windows Update to install updates.
 
-### On Windows:
-- **Search Bar**: Click the magnifying glass icon on the Taskbar or press `Windows + S` to open the Search Bar. You can search for files, apps, settings, and even perform web searches directly from this tool.
-- **File Explorer Search**: In File Explorer, use the search bar in the top-right to search for files within the current folder or location.
+Updates improve security and stability. Start them when you do not need the computer for a while.
 
+## External devices
 
-## Managing System Settings
+When you plug in a USB drive it appears in your file manager.
 
-### On macOS:
-- **System Preferences/System Settings**: Access system settings by clicking the Apple Menu and selecting "System Preferences" or "System Settings." Here, you can adjust display, sound, network settings, and more.
-- **Updating Software**: Keep macOS and installed apps up to date by navigating to `System Preferences > Software Update`. Regular updates ensure your system is secure and running smoothly.
+- macOS: it shows on the desktop and in Finder’s sidebar.
+- Windows: it appears under This PC in File Explorer.
 
-### On Windows:
-- **Settings**: Access system settings by clicking the Start Menu and selecting the gear icon, or press `Windows + I`. Here, you can customize display, sound, and system security options.
-- **Updating Software**: Navigate to `Settings > Update & Security > Windows Update` to check for and install Windows updates, which improve system stability and security.
+Always eject before unplugging to avoid losing work.
 
+- macOS: right-click the drive and choose Eject, or drag it to the Bin.
+- Windows: click the Safely Remove Hardware icon near the clock and choose the device.
 
-## Task Management
+## Handy shortcuts
 
-### On macOS:
-- **Mission Control**: Press `F3` or swipe up with three or four fingers on the trackpad to access Mission Control. This feature gives you an overview of all open windows, applications, and desktops.
-- **Multiple Desktops (Spaces)**: Create multiple desktops (Spaces) by accessing Mission Control and clicking the "+" sign in the top-right corner. This helps organize your workspace.
+- macOS search: Command + Space
+- Windows search: Windows + S
+- Open File Explorer: Windows + E
+- See all windows on macOS: F3 or three- or four-finger swipe up
+- See all windows on Windows: Windows + Tab
 
-### On Windows:
-- **Task View**: Press `Windows + Tab` or click the Task View icon on the Taskbar to see all open windows and desktops. Task View also allows you to create and switch between multiple virtual desktops for better organization.
+## Try it: quick practice tasks
 
+Complete the tasks that match your computer. 
 
-## External Devices and Ejecting
+### macOS
 
-### On macOS:
-- **Connecting Devices**: External devices such as USB drives and hard drives will appear on the desktop or in Finder’s sidebar when connected.
-- **Ejecting Devices**: Safely eject external devices by right-clicking the device in Finder or on the desktop and selecting "Eject," or drag the icon to the Trash.
+1. Open Finder using Command + Space, type Finder, and press Return.
+2. Create a new folder in Documents called Uni Work. Inside it, create two folders: Course A and Course B.
+3. Take any file from your desktop and move it into Course A by dragging it in Finder.
+4. Pin an app to the Dock: open TextEdit, then right-click its Dock icon and choose Keep in Dock.
+5. Use Spotlight to open System Settings. Change the desktop wallpaper to a different image. Do not forget Apply or Close if shown.
+6. Check for updates: System Settings > Software Update. If updates are available, note what is listed.
+7. Open Mission Control with F3. Create a second desktop. Move a window to Desktop 2, then switch back.
+8. Plug in a USB drive. Find it in Finder’s sidebar. Eject it safely before unplugging.
+9. Use Finder’s search box to find a file by typing part of its name. Open it from the results.
+10. Shut down or restart using the Apple menu. Cancel at the final step so you do not lose work.
 
-### On Windows:
-- **Connecting Devices**: External drives and USB devices will appear in File Explorer under "This PC."
-- **Ejecting Devices**: Safely remove hardware by clicking the "Safely Remove Hardware" icon in the system tray (bottom-right of the screen) and selecting the device you want to eject.
+### Windows
 
+1. Open File Explorer using Windows + E.
+2. Create a new folder in Documents called Uni Work. Inside it, create two folders: Course A and Course B.
+3. Take any file from your desktop and move it into Course A by dragging it in File Explorer.
+4. Pin an app to the Taskbar: start Notepad, then right-click the Taskbar icon and choose Pin to taskbar.
+5. Use Windows + S to open Search. Open Settings and change the desktop background. Save or Apply if asked.
+6. Open Settings > Windows Update. Check for updates and note what is listed.
+7. Open Task View with Windows + Tab. Create a second desktop. Move a window there, then switch back.
+8. Plug in a USB drive. Find it under This PC in File Explorer. Use Safely Remove Hardware near the clock to eject it.
+9. Use File Explorer’s search box to find a file by typing part of its name. Open it from the results.
+10. Open the Start menu. Use the Power button to view Shut down and Restart. Cancel at the final step so you do not lose work.
 
-## Launching Applications
+## If you remember only three things
 
-### On macOS:
-- **Launchpad**: Launchpad shows all installed applications in a grid format, similar to iOS. Access it by pressing `F4` or clicking the Launchpad icon in the Dock. Use Launchpad to open and organize applications.
-- **Opening Applications via Finder**: Applications are also located in the Applications folder, accessible through Finder.
-
-### On Windows:
-- **Start Menu**: The Start Menu shows frequently used apps and gives access to "All apps," where you can browse all installed software.
-- **Pinned Applications**: Pin frequently used applications to the Taskbar for quick access by right-clicking the application and selecting "Pin to Taskbar."
-
+1. Use search to find files, apps, and settings quickly.
+2. Pin your most used apps to the Dock or Taskbar.
+3. Keep work in named folders inside Documents, not on the desktop.

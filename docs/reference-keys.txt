@@ -179,3 +179,15 @@ using-web-of-science-for-comprehensive-academic-research
 basic-web-of-science-search-tips
 advanced-web-of-science-features
 best-practices-for-effective-research
+operating-system-basics
+getting-around-your-computer
+find-things-fast
+open-and-manage-apps-and-windows
+files-and-folders
+settings-and-updates
+external-devices
+handy-shortcuts
+try-it-quick-practice-tasks
+macos
+windows
+if-you-remember-only-three-things
